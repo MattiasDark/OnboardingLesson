@@ -2,5 +2,5 @@ package org.example.lesson_1
 
 fun main() {
 
-    println("First file")
+    println("First file test")
 }
