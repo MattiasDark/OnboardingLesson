@@ -5,8 +5,8 @@ fun main() {
     val name = "Roland of the Elda clan"
 
     welcomeMessage = "Good day"
-    println(welcomeMessage + ", " + name)
+    println("$welcomeMessage, $name!")
 
     welcomeMessage = "Good evening"
-    println(welcomeMessage + ", " + name)
+    println("$welcomeMessage, $name!")
 }
