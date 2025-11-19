@@ -4,7 +4,8 @@ fun main() {
     val ironOre = 7
     val cristallOre = 11
 
-    val buff = 1.2
+    val realBuff: Double = 20.0
+    val buff: Double = ((100+realBuff)/100).toDouble()
 
     val ironOreWithBonus = ironOre * buff
     val bonusOnlyIroneOre: Int = (ironOreWithBonus - ironOre).toInt()
