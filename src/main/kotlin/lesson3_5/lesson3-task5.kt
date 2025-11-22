@@ -1,7 +1,7 @@
 package org.example.lesson3_5
 import java.util.Scanner
 
-fun main() {
+fun main() {/
     val data = "D2-D4;0"
     val scan = Scanner(data).useDelimiter("-|;")
 
