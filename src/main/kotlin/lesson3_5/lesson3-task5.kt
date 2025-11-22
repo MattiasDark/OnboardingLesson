@@ -3,11 +3,12 @@ import java.util.Scanner
 
 fun main() {
     val data = "D2-D4;0"
-    val scan = Scanner(data).useDelimiter("-|;")
+    val scan = data.split(";","-")
 
-    val part1 = scan.next()
-    val part2 = scan.next()
-    val part3 = scan.next()
-
-    println("$part1, $part2, $part3")
+    val from = scan[0]
+    val to = scan[1]
+    val moveNumber = scan[2].toInt()
+    println(from)
+    println(to)
+    println(moveNumber)
 }
